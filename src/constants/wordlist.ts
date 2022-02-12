@@ -17,6 +17,20 @@ export const WORDS = [
   'GREEK',
   'TABLE',
   'SHOTS',
+  'GAMMA',
+  'DELTA',
+  'POINT',
+  'THETA',
+  'VISOR',
+  'VIPER',
+  'IDRIS',
+  'PABST',
+  'CHUFF',
+  'DILDO',
+  'RUNDY',
+  'MATEO',
+  'MIXER',
+  'BADGE',
 ]
 
 /* export const WORDS = [
