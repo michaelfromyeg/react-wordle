@@ -54,4 +54,20 @@ export const getWordOfDay = () => {
   }
 }
 
-export const { solution, solutionIndex, tomorrow } = getWordOfDay()
+export const getRandomWordOfDay = () => {
+  const epochMs = new Date('January 1, 2022 00:00:00').valueOf()
+  const now = Date.now()
+  const msInDay = 86400000
+  const index = Math.floor((now - epochMs) / msInDay)
+  const nextday = (index + 1) * msInDay + epochMs
+
+  const randomIndex = Math.floor(Math.random() * WORDS.length)
+
+  return {
+    solution: WORDS[randomIndex],
+    solutionIndex: randomIndex,
+    tomorrow: nextday,
+  }
+}
+
+export const { solution, solutionIndex, tomorrow } = getRandomWordOfDay()

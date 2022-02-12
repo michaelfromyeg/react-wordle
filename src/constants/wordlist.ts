@@ -1,4 +1,25 @@
 export const WORDS = [
+  'FIRST',
+  'HOUSE',
+  'FRATS',
+  'PIGAM',
+  'VODKA',
+  'BEERS',
+  'DARTY',
+  'PARTY',
+  'SMOKE',
+  'DARTS',
+  'CHOPS',
+  'LOGAN',
+  'AIDEN',
+  'JACOB',
+  'MUTLU',
+  'GREEK',
+  'TABLE',
+  'SHOTS',
+]
+
+/* export const WORDS = [
   'which',
   'there',
   'their',
@@ -5757,3 +5778,4 @@ export const WORDS = [
   'biffy',
   'pupal',
 ]
+*/
