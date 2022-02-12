@@ -31,6 +31,7 @@ export const WORDS = [
   'MATEO',
   'MIXER',
   'BADGE',
+  'COVID',
 ]
 
 /* export const WORDS = [
